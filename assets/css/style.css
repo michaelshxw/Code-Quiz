@@ -1,5 +1,48 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: blue;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px 30px;
+}
+
+#quiz {
+    border: 5px solid black;
+    width: 40%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin-top: -100;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#buttons {
+    
+}
+
+button {
+    border: 2px solid black ;
+    padding: 20px 30px;
+}
+
+#startTime {
+    padding: 20px 50px;
+}
+
+
+#answersList {
+    padding: ;
+}
+
+#inputQuestions {
+    width: 80%;
+    height: 20%;
 }
