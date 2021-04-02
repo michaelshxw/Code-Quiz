@@ -5,32 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>JavaScript Quiz!!! BEAT YOUR HIGHSCORE NOW!!!</title>
+    <title>JavaScript Coding Quiz</title>
 </head>
 <body>
-    
-
     <!-- quiz section -->
     <section id="quiz">
         <!-- title -->
-        <h1>JavaScript Code Quiz</h1>
+        <h1 id="header">JavaScript Code Quiz</h1>
         <!-- timer -->
-        <div id="timeLeft"></div>
+        <div id="timer"></div>
         <!-- questions -->
-        <div id="quizQuestions">
-            <p><b>Rules:</b> Attempt to answer the following questions. 
+        <div id="questions">
+            <p id="rules"><b>Rules:</b> Attempt to answer the following questions. 
                 Correct answers will award you with 5 additional seconds. 
                 Incorrect answers will incur a 10 second violation.</p>
-            <textarea role="lab" name="quiz-questions" id="inputQuestions" cols="30" rows="10"></textarea>
             <ul id="answersList"></ul>
-            <div id="buttons">
-                <button id="startTime">Start Time</button>
-                <button>View Highscores</button>
+            <div> 
+                <button id="startTime">Start Quiz</button> 
+                <!-- lookup button colors online before submitting -->
+                <p id="highscores"><a href="#">View Highscores</a></p>
             </div>
         </div>
-     
-
-
     </section>
     
     <script src="./assets/js/script.js"></script>

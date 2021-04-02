@@ -2,47 +2,56 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: aliceblue;
 }
 
 h1 {
-    padding: 10px;
+    padding-top: 50px;
 }
 
-p {
-    padding: 10px 30px;
+#rules {
+    padding: 30px 40px;
 }
 
 #quiz {
-    border: 5px solid black;
-    width: 40%;
-    height: auto;
-    position: relative;
+    background-color: white;
+    border: 1px solid rgb(120, 187, 241);
+    filter: drop-shadow(0 0 5px rgb(128, 128, 128));
+    width: 600px;
+    height: 400px;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, 50%);
-    margin-top: -100;
     text-align: center;
+    border-radius: 50px;
     padding-bottom: 50px;
 }
 
-#buttons {
-    
-}
-
 button {
-    border: 2px solid black ;
-    padding: 20px 30px;
+    border: 1px solid black ;
+    border-radius: 20px;
+    background-color: rgb(155, 230, 255);
+    font-size: 18px;
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    bottom: 30%;
+}
+ #timer {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 18px;
+    padding: 35px 50px;
 }
 
-#startTime {
-    padding: 20px 50px;
+#highscores {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    bottom: 13%;
 }
 
-
-#answersList {
-    padding: ;
-}
-
-#inputQuestions {
-    width: 80%;
-    height: 20%;
-}
+/* Media Queries */
