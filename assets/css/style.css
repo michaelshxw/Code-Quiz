@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background color so the quiz box stands out */
     background-color: aliceblue;
 }
 
@@ -13,12 +14,13 @@ h1 {
     padding: 30px 40px;
 }
 
+/* quiz box styling */
 #quiz {
     background-color: white;
     border: 1px solid rgb(120, 187, 241);
     filter: drop-shadow(0 0 5px rgb(128, 128, 128));
     width: 600px;
-    height: 400px;
+    height: auto;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 50%);
@@ -27,6 +29,7 @@ h1 {
     padding-bottom: 50px;
 }
 
+/* button styling */
 button {
     border: 1px solid black ;
     border-radius: 20px;
@@ -34,24 +37,79 @@ button {
     font-size: 18px;
     width: 180px;
     height: 60px;
-    position: absolute;
-    transform: translate(-50%, 50%);
-    left: 50%;
-    bottom: 30%;
+    position: relative;
+    bottom: 50px;
 }
- #timer {
+
+/* submit button styling */
+#submit {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#initials {
+    margin-bottom: 50px;
+}
+
+/* position timer */
+#timer {
     position: absolute;
     right: 0px;
-    top: 0px;
     font-size: 18px;
     padding: 35px 50px;
 }
 
+/* center highscores list */
 #highscores {
-    position: absolute;
+    position: relative;
     left: 50%;
+    bottom: 50px;
     transform: translate(-50%, 50%);
-    bottom: 13%;
+    margin-bottom: -50px;
 }
 
-/* Media Queries */
+#createDiv {
+    margin-top: 40px;
+}
+
+ul {
+    margin-top: 100px;
+}
+
+#highscore {
+    margin-top: 0;
+}
+
+#endQuizHeader {
+    margin-top: 50px;
+}
+
+/* list styling */
+li {
+    position: relative;
+    left: 47%;
+    transform: translate(-50%, 50%);
+    background-color: rgb(105, 177, 236);
+    width: 40%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+    border: solid lightblue 2px;
+}
+
+/*  on list hover, change opacity */
+li:hover {
+    opacity: 0.5;
+}
+
+/* highscore styles */
+
+#highscore-buttons {
+    margin-top: 100px;
+}
+
+/* put spacing between the two buttons on highscores page */
+#goBack {
+    margin-right: 10px;
+}
