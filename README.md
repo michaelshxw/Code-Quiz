@@ -72,5 +72,4 @@ THEN I can save my initials and my score
 ```
 
 ### Authors
-* **Michael Shaw** (JavaScript) [GitHub Profile](https://github.com/michaelshxw)
-* UWA / Trilogy (HTML and CSS)
+* **Michael Shaw** (HTML, CSS and JavaScript) [GitHub Profile](https://github.com/michaelshxw)
